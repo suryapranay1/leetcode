@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int longestConsecutive(vector<int>& nums) {
+    int longestConsecutive(vector<int>& nums) {  
         int n=nums.size();
         int count =1;
         int maxi=INT_MIN;
